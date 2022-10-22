@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="flex">
         <video className="w-full h-[500px] mr-7 ml-5 mb-8 object-cover rounded-bl-[100px] overflow-hidden" src={Video} autoPlay loop muted />
-        <div className='flex flex-col fixed top-72 left-36'>
+        <div className='flex flex-col absolute top-72 left-36'>
             <span className='text-white font-sans lg:text-[55px] md:text-[40px] sm:text-[30px]'>We see the future of logistics</span>
             <span className='text-white font-sans lg:text-[55px] md:text-[40px] sm:text-[30px]'>through{' '}
                 <span className='underline'>
