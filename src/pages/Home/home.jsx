@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Hero, Middle, LowMiddle } from '../../components'
+import { Navbar, Hero, Middle, LowMiddle,Stats } from '../../components'
 const Home = () => {
   return (
     <React.Fragment>
@@ -7,6 +7,7 @@ const Home = () => {
       <Hero />
       <Middle />
       <LowMiddle />
+      <Stats />
     </React.Fragment>
   )
 }
