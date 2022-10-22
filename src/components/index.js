@@ -4,4 +4,6 @@ import NavDropdown from "./NavDropdown"
 import Middle from "./Middle";
 import LowMiddle from "./LowMiddle";
 import Stats from "./Stats";
-export { Hero, Navbar, NavDropdown, Middle, LowMiddle, Stats };
+import Region from "./Region";
+
+export { Hero, Navbar, NavDropdown, Middle, LowMiddle, Stats, Region };
