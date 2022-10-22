@@ -10,9 +10,8 @@ const Hero = () => {
                 <span className='underline'>
                     connections
                 </span>
-                
             </span>
-            <button className='bg-[#EB6547]  rounded-tr-[30px] hover:bg-[#F49684] lg:w-[250px] h-[50px] md:w-[150px] h-[50px] sm:w-[150px] h-[50px]'>
+            <button className='bg-[#EB6547] rounded-tr-[30px] hover:bg-[#F49684] lg:w-[250px] h-[50px] md:w-[150px] h-[50px] sm:w-[150px] h-[50px]'>
                 VIEW OUR PORTFOLIO
             </button>
         </div>
