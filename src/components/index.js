@@ -6,5 +6,6 @@ import LowMiddle from "./LowMiddle";
 import Stats from "./Stats";
 import Region from "./Region";
 import Warehouse from "./Warehouse";
-
-export { Hero, Navbar, NavDropdown, Middle, LowMiddle, Stats, Region, Warehouse };
+import Footer
+ from "./Footer";
+export { Hero, Navbar, NavDropdown, Middle, LowMiddle, Stats, Region, Warehouse, Footer };

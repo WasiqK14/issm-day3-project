@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
+import { Navbar,Footer } from '../../components'
 
 const Contact = () => {
   return (
     <React.Fragment>
       <Navbar />
+      <Footer />
     </React.Fragment>
   )
 }
