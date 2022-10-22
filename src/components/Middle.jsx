@@ -16,7 +16,6 @@ const Middle = () => {
                     </div>
                 </div>
             </div>
-
             <div className='flex justify-center items-center ml-10 mr-10'>
                 <div className='grid lg:grid-cols-3 grid-cols-1 gap-10'>
                     <div className='bg-cover bg-center border-2 border-amber-100 cursor-pointer underline hover:no-underline' style={{backgroundImage:`url("https://cms.linklogistics.com/wp-content/uploads/2022/09/High-Corporate_Marketing_2021_CoreGiving-10.jpg")`}}>
