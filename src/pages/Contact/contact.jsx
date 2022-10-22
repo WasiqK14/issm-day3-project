@@ -1,11 +1,10 @@
 import React from 'react'
-// import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Navbar'
 
 const Contact = () => {
   return (
     <React.Fragment>
-      Contact
-      {/* <Navbar /> */}
+      <Navbar />
     </React.Fragment>
   )
 }

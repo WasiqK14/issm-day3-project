@@ -1,12 +1,10 @@
 import React from 'react'
-// import { Hero,Navbar } from '../../components'
+import { Navbar } from '../../components'
 
 const Home = () => {
   return (
     <React.Fragment>
-      {/* <Navbar />
-      <Hero /> */}
-      App
+      <Navbar />
     </React.Fragment>
   )
 }
