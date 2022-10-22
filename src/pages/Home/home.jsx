@@ -1,12 +1,16 @@
 import React from 'react'
-// import { Hero,Navbar } from '../../components'
-
+import { Navbar, Hero, Middle, LowMiddle, Stats, Region, Warehouse, Footer } from '../../components'
 const Home = () => {
   return (
     <React.Fragment>
-      {/* <Navbar />
-      <Hero /> */}
-      App
+      <Navbar />
+      <Hero />
+      <Middle />
+      <LowMiddle />
+      <Stats />
+      <Region />
+      <Warehouse />
+      <Footer />
     </React.Fragment>
   )
 }
