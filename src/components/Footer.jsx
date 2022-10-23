@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-[#252429] px-32 py-16'>
-        <div className='grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1'>
+    <div className='bg-[#252429] px-32 py-16 w-full'>
+        <div className='w-fullgrid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1'>
             <div className='col-span-2'>
                 <span className='text-[#DEC7AC] font-sans text-[32px]'> Link Logo </span>
             </div>
