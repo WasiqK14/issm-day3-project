@@ -34,7 +34,7 @@ const Warehouse = () => {
             </div>
         </div>
         <div className='p-10 sm:flex md:hidden lg:hidden'>
-            <div className='grid grid-rows-2 w-[400px]'>
+            <div className='grid grid-rows-2'>
                 <div className='row-span-1 w-full bg-cover bg-center rounded-tr-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2022/05/home-large-cta.png)`}}>
                 </div>
                 <div className='p-1 row-span-1 bg-[#96B7C0] border-2 border-amber-100'>
