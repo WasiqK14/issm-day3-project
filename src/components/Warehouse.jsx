@@ -33,14 +33,14 @@ const Warehouse = () => {
                 </div>
             </div>
         </div>
-        <div className='p-10 sm:flex md:hidden lg:hidden'>
-            <div className='grid grid-rows-2'>
-                <div className='row-span-1 w-full bg-cover bg-center rounded-tr-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2022/05/home-large-cta.png)`}}>
+        <div className='p-5 sm:flex md:hidden lg:hidden'>
+            <div className='grid grid-flow-row'>
+                <div className='w-[400px] h-[150px] bg-cover bg-center rounded-tr-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2022/05/home-large-cta.png)`}}>
                 </div>
-                <div className='p-1 row-span-1 bg-[#96B7C0] border-2 border-amber-100'>
+                <div className='p-5 bg-[#96B7C0] border-2 border-amber-100'>
                     <p className='text-black font-sans font-semibold text-[20px]'>Our space is your space.</p>
                     <p className='text-black font-sans text-[14px] '>Link invites charities, nonprofits and philanthropic organizations across the country to utilize our warehouse space in order to help them continue the critical work they do.</p>
-                    <button className='bg-[#252429] rounded-tr-[30px] mt-10 mb-5 text-white hover:bg-black lg:w-[150px] lg:h-[50px] md:w-[150px] md:h-[50px] sm:w-[150px] sm:h-[50px]'>
+                    <button className='bg-[#252429] rounded-tr-[30px] mt-10 text-white hover:bg-black w-[120px] h-[30px]' style={{fontSize:12}}>
                             LEARN MORE
                     </button>
                 </div>

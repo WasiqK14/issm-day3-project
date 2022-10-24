@@ -3,7 +3,7 @@ import { Navbar, Hero, Middle, LowMiddle, Stats, Region, Warehouse, Footer } fro
 const Home = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      <Navbar/>
       <Hero />
       <Middle />
       <LowMiddle />
