@@ -123,3 +123,28 @@ export const middleData = [
         imgLink: "https://cms.linklogistics.com/wp-content/uploads/2022/10/CoreGiving2023.jpg",
     },
 ]
+
+export const regionsData = [
+    {
+        key: 1,
+        title: "EAST REGION",
+        total: "145,800,00",
+        properties: "1132",
+        imgLink: "https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-503703570-1.jpg"
+    },
+    {
+        key: 2,
+        title: "CENTRAL REGION",
+        total: "188,700,00",
+        properties: "1076",
+        imgLink: "https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-503703570-2.jpg"
+    },
+    {
+        key: 3,
+        title: "WEST REGION",
+        total: "224,800,00",
+        properties: "1348",
+        imgLink: "https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-503703570-3.jpg"
+    }
+
+]
