@@ -1,6 +1,6 @@
 import React from 'react'
-import { navLinks } from '../constants'
-import Caret from '../assets/caret-down.svg'
+import { navLinks } from '../../constants'
+import Caret from '../../assets/caret-down.svg'
 const NavDropdown = (props) => {
 
     const { path, title, sublinkValue, sublink } = props.item
