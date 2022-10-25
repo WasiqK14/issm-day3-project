@@ -1,18 +1,27 @@
 import React from 'react'
-import Overpass from '../assets/Overpass.jpg'
+
 const Middle = () => {
   return (
         <React.Fragment>
-            <div className='bg-[#252429] ml-5 mr-5 rounded-br-[100px] rounded-tl-[100px] mb-20 border-2 border-amber-100'>
-                <div className='grid lg:grid-cols-2 '>
-                    <div className='flex flex-col justify-start p-10 lg:order-first md:order-last sm:order-last '>
+            <div className=' h-max bg-[#252429] ml-5 mr-5 lg:rounded-br-[100px] lg:rounded-tl-[100px] md:rounded-br-[100px] md:rounded-tl-[100px] sm:rounded-br-[50px] sm:rounded-tl-[50px] mb-20 border-2 border-amber-100'>
+                <div className='lg:grid md:grid lg:grid-cols-2 md:grid-cols-2 sm:hidden'>
+                    <div className='flex flex-col col-span-1 justify-start py-14 px-20'>
                         <span className='text-white font-sans font-semibold text-[32px]'>It is all about connections.</span>
                         <p className='text-white font-sans text-[15px] mt-5'>Logistics real estate connects products with the people who need them. Link connects businesses with the warehouse spaces they need to make it all happen—helping its customers grow all along the way.</p>
-                        <span className='text-white font-sans font-bold text-[20px] mt-1'>We will get you there.</span>
+                        <span className='text-white font-sans font-bold text-[15px] mt-5'>We will get you there.</span>
                         <p className='text-white font-sans text-[15px]'>Link owns the largest portfolio of U.S.-only industrial real estate. Our scale is expansive, our technology is leading-edge and our people are talented contributors who bring a passion for what we do.</p>
                     </div>
-                    <div className='md:rounded-tl-[100px]'>
-                        <img className='object-cover w-full h-[320px] border-2 border-amber-100 lg:rounded-br-[100px] md:rounded-tl-[100px] sm:rounded-tl-[100px]' src={Overpass} alt='Overpass' />
+                    <div className='h-full col-span-1 bg-center bg-cover lg:rounded-br-[100px] md:rounded-br-[100px] border-2 border-amber-100' style={{backgroundImage:`url("https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-1272641181-scaled.jpg")`}}>
+                    </div>
+                </div>
+                <div className='sm:grid sm:grid-rows-2 lg:hidden md:hidden'>
+                    <div className='flex flex-col row-span-1 justify-start py-2 px-5'>
+                        <span className='text-white font-sans font-semibold text-[20px]'>It is all about connections.</span>
+                        <p className='text-white font-sans text-[12px] mt-1'>Logistics real estate connects products with the people who need them. Link connects businesses with the warehouse spaces they need to make it all happen—helping its customers grow all along the way.</p>
+                        <span className='text-white font-sans font-bold text-[16px] mt-2'>We will get you there.</span>
+                        <p className='text-white font-sans text-[12px]'>Link owns the largest portfolio of U.S.-only industrial real estate. Our scale is expansive, our technology is leading-edge and our people are talented contributors who bring a passion for what we do.</p>
+                    </div>
+                    <div className='row-span-1 order-first bg-center bg-cover rounded-tl-[50px] border-2 border-amber-100' style={{backgroundImage:`url("https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-1272641181-scaled.jpg")`}}>
                     </div>
                 </div>
             </div>
