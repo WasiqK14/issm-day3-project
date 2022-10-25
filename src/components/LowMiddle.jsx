@@ -3,8 +3,8 @@ import React from 'react'
 const LowMiddle = () => {
   return (
     <div className='mt-10 bg-[#252429] p-20'>
-        <div className='grid lg:grid-cols-2'>
-            <div className='bg-cover bg-center w-full h-[300px] rounded-tl-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2022/07/6695BusinessPkwy_Marketing_2021_PropertyPhoto_bt42540.jpg)`}}>
+        <div className='grid lg:grid-cols-2 gap-5'>
+            <div className='bg-cover bg-center w-full h-[300px] rounded-bl-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2022/07/6695BusinessPkwy_Marketing_2021_PropertyPhoto_bt42540.jpg)`}}>
             </div>
             <div className='w-full p-5'>
                 <span className='text-[#DEC7AC] font-sans font-semibold text-[32px]'>Link's 2021 ESG Report</span>
@@ -14,7 +14,7 @@ const LowMiddle = () => {
                 </button>
             </div>
         </div>
-        <div className='mt-20 grid lg:grid-cols-2'>
+        <div className='mt-20 grid lg:grid-cols-2 gap-5'>
             <div className='bg-cover bg-center w-full h-[300px] rounded-tl-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-1147340803-scaled.jpg)`}}>
             </div>
             <div className='w-full p-5'>
@@ -25,18 +25,18 @@ const LowMiddle = () => {
                 </button>
             </div>
         </div>
-        <div className='mt-20 grid lg:grid-cols-2'>
-            <div className='w-full p-5'>
-                <span className='text-[#DEC7AC] font-sans font-semibold text-[32px]'>Building a satisfying career.</span>
-                <p className='mt-5 text-[#DEC7AC] font-sans text-[16px]'>Our commitment to employee well-being, satisfaction and support enables us to attract, develop, inspire and reward great people.</p>
-                <button className='mt-5 bg-[#EB6547] rounded-tl-[30px] hover:bg-[#F49684] w-[250px] h-[50px]'>
+        <div className='mt-20 grid lg:grid-cols-2 gap-5'>
+            <div className='w-full p-5 lg:flex lg:flex-col md:flex md:flex-col sm:flex sm:flex-col'>
+                <span className='text-[#DEC7AC] font-sans font-semibold text-[32px] lg:text-end md:text-start sm:text-start'>Building a satisfying career.</span>
+                <p className='mt-5 text-[#DEC7AC] font-sans text-[16px] lg:text-end md:text-start sm:text-start'>Our commitment to employee well-being, satisfaction and support enables us to attract, develop, inspire and reward great people.</p>
+                <button className='mt-5 bg-[#EB6547] rounded-tl-[30px] hover:bg-[#F49684] w-[250px] h-[50px] lg:self-end md:self-start sm:self-start'>
                     VIEW JOB OPENINGS
                 </button>
             </div>
                 <div className='bg-cover bg-center w-full h-[300px] rounded-tr-[100px] border-2 border-amber-100 lg:order-last md:order-first sm:order-first' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2021/07/Order-number-2070570404-scaled.jpg)`}}>
             </div>
         </div>
-        <div className='mt-20 grid lg:grid-cols-2'>
+        <div className='mt-20 grid lg:grid-cols-2 gap-5'>
             <div className='bg-cover bg-center w-full h-[300px] rounded-tl-[100px] border-2 border-amber-100' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2021/07/GettyImages-1216505422-scaled.jpg)`}}>
             </div>
             <div className='w-full p-5'>
@@ -47,15 +47,15 @@ const LowMiddle = () => {
                 </button>
             </div>
         </div>
-        <div className='mt-20 grid lg:grid-cols-2'>
-            <div className='w-full p-5'>
-                <span className='text-[#DEC7AC] font-sans font-semibold text-[32px]'>From the ground up: a holistic approach to ESG.</span>
-                <p className='mt-5 text-[#DEC7AC] font-sans text-[16px]'>Sustainability is built into our foundation. At the heart of everything we do, it drives our commitment to renewable energy, green building technology and carbon neutrality.</p>
-                <button className='mt-5 bg-[#EB6547] rounded-tl-[30px] hover:bg-[#F49684] w-[250px] h-[50px]'>
+        <div className='mt-20 grid lg:grid-cols-2 gap-5'>
+            <div className='w-full p-5 lg:flex lg:flex-col md:flex md:flex-col sm:flex sm:flex-col'>
+                <span className='text-[#DEC7AC] font-sans font-semibold text-[32px] lg:text-end md:text-start sm:text-start '>From the ground up: a holistic approach to ESG.</span>
+                <p className='mt-5 text-[#DEC7AC] font-sans text-[16px] lg:text-end md:text-start sm:text-start'>Sustainability is built into our foundation. At the heart of everything we do, it drives our commitment to renewable energy, green building technology and carbon neutrality.</p>
+                <button className='mt-5 bg-[#EB6547] rounded-tl-[30px] hover:bg-[#F49684] w-[250px] h-[50px] lg:self-end md:self-start sm:self-start'>
                     LEARN MORE
                 </button>
             </div>
-                <div className='bg-cover bg-center w-full h-[300px] rounded-tr-[100px] border-2 border-amber-100 lg:order-last md:order-first sm:order-first' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2021/07/365-north-ave-carol-stream-5-scaled.jpeg)`}}>
+                <div className='bg-cover bg-center w-full h-[300px] rounded-br-[100px] border-2 border-amber-100 lg:order-last md:order-first sm:order-first' style={{backgroundImage:`url(https://cms.linklogistics.com/wp-content/uploads/2021/07/365-north-ave-carol-stream-5-scaled.jpeg)`}}>
             </div>
         </div>
     </div>
