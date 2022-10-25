@@ -102,3 +102,24 @@ export const navLinks = [
         title: "CUSTOMER LOGIN",
     }
 ]
+
+export const middleData = [
+    {
+        key: 1,
+        title: "FIGHTING CHILD HUNGER",
+        desc: "On CoreGiving Day, Blackstone, Link and 13 other companies will volunteer across the U.S to help fight child hunger.",
+        imgLink: "https://cms.linklogistics.com/wp-content/uploads/2022/09/High-Corporate_Marketing_2021_CoreGiving-10.jpg",
+    },
+    {
+        key: 2,
+        title: "SUPPORTING FAMILY LANDOWNERS",
+        desc: "Link committed nearly $5 million to support family forest owners, conserve woodlands and fight climate change.",
+        imgLink: "https://cms.linklogistics.com/wp-content/uploads/2022/08/PR-Medium-Corporate-Marketing_Stock_220809-scaled.jpg",
+    },
+    {
+        key: 3,
+        title: "SECOND ANNUAL COREGIVING DAY",
+        desc: "Link, in partnership with Blackstone and 13 other companies, donated over 17K hours and provided over 650K meals.",
+        imgLink: "https://cms.linklogistics.com/wp-content/uploads/2022/10/CoreGiving2023.jpg",
+    },
+]
